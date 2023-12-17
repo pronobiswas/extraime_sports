@@ -199,6 +199,13 @@ ol,ul{list-style-type: none;}
 .excitement_content button{
     background-color: var(--secondery_color);
     color: var(--praimary_color);
+    border: 1px solid transparent;
+    transition: .2s all linear;
+}
+.excitement_content button:hover{
+    background-color: transparent;
+    color: var(--secondery_color);
+    border: 1px solid var(--secondery_color);
 }
 /* .excitement_content ul li span img{
 } */
@@ -325,12 +332,16 @@ ol,ul{list-style-type: none;}
 #extreme_sports .galary .galary_item .galary_photo{
     width: 100%;
     height: 365px;
-    background-color: whitesmoke;
+    overflow: hidden;
 }
 #extreme_sports .galary .galary_item .galary_photo img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: .2s all linear;
+}
+#extreme_sports .galary .galary_item .galary_photo img:hover{
+    transform: scale(1.2);
 }
 #extreme_sports .galary .galary_item .descriptino{
     width: 100%;
@@ -544,7 +555,8 @@ ol,ul{list-style-type: none;}
 #why_choose .why_choose_card{
     width: 312px;
     height: 400px;
-    border: 1px solid gray;
+    padding: 5px;
+    border: 1px solid rgba(226, 226, 226, 0.281);
     text-align: center;
 }
 #why_choose .why_choose_card .why_choose_card_image{
