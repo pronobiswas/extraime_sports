@@ -327,51 +327,12 @@
     width: 100%;
     max-width: 312px;
     height: 400px;
-    border: 1px solid rgb(0, 219, 15);
     text-align: center;
   }
-  #why_choose .why_choose_card .why_choose_card_image {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin: 22px auto 56px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .first_card_img {
-    background-color: #f2f2fd;
-  }
-  .second_card_img {
-    background-color: #e7fde9;
-  }
-  .third_card_img {
-    background-color: #fff4e5;
-  }
-  .last_card_img {
-    background-color: #fdf1f5;
-  }
-  #why_choose .why_choose_card .why_choose_card_image img {
-    width: 55px;
-    height: 55px;
-  }
-  #why_choose .why_choose_card h4 {
-    color: #222;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: normal;
-  }
-  #why_choose .why_choose_card p {
-    color: #222;
-    text-align: center;
-    font-family: IBM Plex Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 16px;
-  }
+  
+  
+  
+  
   /* ================why choose end here============== */
 
 
