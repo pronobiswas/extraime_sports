@@ -629,7 +629,7 @@ ul {
 }
 /* ================why choose end here============== */
 
-/* ================why choose start here============== */
+/* ================the passion start here============== */
 #the_passion {
   width: 100%;
   padding: 100px 0;
@@ -713,7 +713,8 @@ ul {
 }
 .the_passion_galary .the_passion_galary_item p {
   color: #000;
-  width: 365px;
+  width: 100%;
+  max-width: 365px;
   text-align: center;
   font-family: IBM Plex Sans;
   font-size: 18px;

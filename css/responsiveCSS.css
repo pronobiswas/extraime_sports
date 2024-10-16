@@ -329,12 +329,58 @@
     height: 400px;
     text-align: center;
   }
-  
-  
-  
-  
   /* ================why choose end here============== */
 
+  /* ================the_passion start here============== */
+
+  .the_passion_text_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px ;
+  }
+  .the_passion_headding {
+    width: 100%;
+  }
+  
+  .the_passion_pragraph {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .the_passion_galary{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .the_passion_galary .the_passion_galary_item{
+    width: 100%;
+    max-width: 320px;
+  }
+  .the_passion_galary_item_txt{
+    width: 100%;
+    text-align: left;
+  }
+  .the_passion_galary .the_passion_galary_item p {
+    margin: 27px 0 20px 0;
+  }
+  .the_passion_galary .the_passion_galary_item hr {
+    margin: 45px 0 3px 0;
+    color: #eee;
+    background-color: #eee;
+    border: none;
+    padding: 1px;
+  }
+  
+
+  .the_passion_galary .the_passion_galary_item p a {
+    color: var(--secondery_color);
+    font-weight: 700;
+  }
+ 
+/* ================why choose start here============== */
 
 
 
